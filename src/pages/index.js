@@ -23,9 +23,6 @@ const DEFAULT_IMAGES = [
     { id: '1', src: full01, thumbnail: thumb01, caption: 'Enterprise International', description: 'American travel site for International business clientele.'},
     { id: '2', src: full02, thumbnail: thumb02, caption: 'Caffey, Inc.', description: 'Design-Build Medical Construction website.'},
     { id: '3', src: full03, thumbnail: thumb03, caption: 'Mugshot', description: 'Facebook clone for those who prefer jumpsuits.'},
-    { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
 ];
 
 class HomeIndex extends React.Component {
@@ -97,7 +94,7 @@ class HomeIndex extends React.Component {
                         <br/>
                         <u>Currently I work with:</u>
                         <ul>
-                        <li>HTML/CSS/Responsive Design</li>
+                        <li>/CSS/Responsive Design</li>
                         <li> JavaScript</li>
                         <li>React</li> 
                         <li>NodeJS</li>
