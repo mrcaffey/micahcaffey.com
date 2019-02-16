@@ -8,16 +8,11 @@ import Gallery from '../components/Gallery'
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
 import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
+
 
 import full01 from '../assets/images/fulls/01.jpg'
 import full02 from '../assets/images/fulls/02.jpg'
 import full03 from '../assets/images/fulls/03.jpg'
-import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
     { id: '1', src: full01, thumbnail: thumb01, caption: 'Enterprise International', description: 'American travel site for International business clientele.'},
@@ -72,8 +67,8 @@ class HomeIndex extends React.Component {
     }
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
-        const siteDescription = "Site description"
+        const siteTitle = "Micah Caffey: Software Developer"
+        const siteDescription = "Portfolio Site"
 
         return (
             <Layout>
@@ -94,7 +89,7 @@ class HomeIndex extends React.Component {
                         <br/>
                         <u>Currently I work with:</u>
                         <ul>
-                        <li>/CSS/Responsive Design</li>
+                        <li>HTML/CSS/Responsive Design</li>
                         <li> JavaScript</li>
                         <li>React</li> 
                         <li>NodeJS</li>
