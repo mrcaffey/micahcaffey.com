@@ -91,6 +91,7 @@ class HomeIndex extends React.Component {
                         <ul>
                         <li>HTML/CSS/Responsive Design</li>
                         <li> JavaScript</li>
+                        <li>Testing Frameworks (Mocha, Jasmine, Jest)</li>
                         <li>React</li> 
                         <li>NodeJS</li>
                         <li>jQuery</li>
