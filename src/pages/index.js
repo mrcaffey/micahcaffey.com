@@ -89,7 +89,7 @@ class HomeIndex extends React.Component {
                         <br/>
                         <u>Currently I work with:</u>
                         <ul>
-                        <li>HTML/CSS/Responsive Design</li>
+                        <li>HTML/CSS/SASS</li>
                         <li> JavaScript</li>
                         <li>Testing Frameworks (Mocha, Jasmine, Jest)</li>
                         <li>React</li> 
