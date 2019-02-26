@@ -19,7 +19,7 @@ const Success = (props) => (
                     </header>
                     <span className="image main"><img src={pic11} alt="" /></span>
                     <p>I'll be in contact with you shortly. Have a great day!</p>
-                    <a href="/home">Home</a>
+                    <a href="/#">Home</a>
                 </div>
             </section>
         </div>
