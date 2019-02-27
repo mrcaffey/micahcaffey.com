@@ -13,9 +13,13 @@ import thumb03 from '../assets/images/thumbs/03.jpg'
 import full01 from '../assets/images/fulls/01.jpg'
 import full02 from '../assets/images/fulls/02.jpg'
 import full03 from '../assets/images/fulls/03.jpg'
+import jsicon from '../assets/images/fulls/icons8-javascript-96.png'
+
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Enterprise International', description: 'American travel site for International business clientele.'},
+    { id: '1', src: full01, thumbnail: thumb01, caption: 'Enterprise International', 
+    description: 'American travel site for International business clientele.',
+    link: "https://dps-enterprise-international.herokuapp.com/" },
     { id: '2', src: full02, thumbnail: thumb02, caption: 'Caffey, Inc.', description: 'Design-Build Medical Construction website.'},
     { id: '3', src: full03, thumbnail: thumb03, caption: 'Mugshot', description: 'Facebook clone for those who prefer jumpsuits.'},
 ];
@@ -110,11 +114,12 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <h2>Recent Work</h2>
 
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
+                        <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description, link }) => ({
                             src,
                             thumbnail,
                             caption,
-                            description
+                            description,
+                            link
                         }))} />
 
                         <ul className="actions">
