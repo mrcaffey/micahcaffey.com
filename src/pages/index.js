@@ -13,7 +13,17 @@ import thumb03 from '../assets/images/thumbs/03.jpg'
 import full01 from '../assets/images/fulls/01.jpg'
 import full02 from '../assets/images/fulls/02.jpg'
 import full03 from '../assets/images/fulls/03.jpg'
-import jsicon from '../assets/images/fulls/icons8-javascript-96.png'
+
+import htmlicon from '../assets/images/icons/icons8-html-5-96.png'
+import cssicon from '../assets/images/icons/icons8-css3-96.png'
+import jsicon from '../assets/images/icons/icons8-javascript-96.png'
+import tsicon from '../assets/images/icons/icon-typescript-96.png'
+import reacticon from '../assets/images/icons/icon-reactjs-96.png'
+import nodeicon from '../assets/images/icons/icons8-nodejs-96.png'
+import rubyicon from '../assets/images/icons/icon-ruby-96.png'
+import railsicon from '../assets/images/icons/icon-rails-96.png'
+import phpicon from '../assets/images/icons/icon-php-96.png'
+import sqlicon from '../assets/images/icons/icon-sql-96.png'
 
 
 const DEFAULT_IMAGES = [
@@ -87,28 +97,32 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Welcome! </h2>
                         </header>
-                        <p>I am a freelance web developer passionate about using programming to solve problems and deliver quality products.
-                           When I'm not working on a project, I enjoy hiking, exercising, cooking and photography.
+                        <p>I am a freelance Full Stack web developer passionate about using programming to solve problems and deliver quality products.
+                           When I'm not working on a project, I enjoy hiking, exercising, cooking and photography. </p>
                         <br/>
                         <br/>
-                        <u>Currently I work with:</u>
-                        <ul>
-                        <li>HTML/CSS/SASS</li>
-                        <li> JavaScript</li>
-                        <li>Testing Frameworks (Mocha, Jasmine, Jest)</li>
-                        <li>React</li> 
-                        <li>NodeJS</li>
-                        <li>jQuery</li>
-                        <li>Ruby on Rails</li>
-                        <li>API's</li>
-                        <li>SQL</li>
+                        <p>Currently, I work with mainly JavaScript, HTML/CSS/Bootstrap, React and React Native on the front end with 
+                           NodeJS and Ruby on Rails for the backend.</p>
+                        <br/>
+                        <br/>
+                        <img src={htmlicon} alt="HTML"/>
+                        <img src={cssicon} alt="CSS"/>
+                        <img src={jsicon} alt="JavaScript"/>
+                        <img src={reacticon} alt="React"/>
+                        <br/>
+                        <img src={nodeicon} alt="Node"/>
+                        <img src={rubyicon} alt="Ruby"/>
+                        <img src={railsicon} alt="Rails"/>
+                        <img src={phpicon} alt="PHP"/>
+                        <img src={sqlicon} alt="SQL"/>
+                        <br/>
+                        <br/>
+
+
+                        <ul className="actions">
+                            <li><a href="https://github.com/mrcaffey" className="button">Check me out on Github</a></li>
                         </ul>
                         
-                        I am also learning Java,
-                           React Native, Gatsby and JAMStack applications. </p>
-                        <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
                     </section>
 
                     <section id="two">
