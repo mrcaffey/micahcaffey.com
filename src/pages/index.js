@@ -110,9 +110,13 @@ class HomeIndex extends React.Component {
                         <img src={reacticon} alt="React"/>
                         <br/>
                         <img src={nodeicon} alt="Node"/>
+                        &emsp;
                         <img src={rubyicon} alt="Ruby"/>
+                        &emsp;
                         <img src={railsicon} alt="Rails"/>
+                        &emsp;
                         <img src={phpicon} alt="PHP"/>
+                        &emsp;
                         <img src={sqlicon} alt="SQL"/>
                         <br/>
                         <br/>
