@@ -26,11 +26,12 @@ import sqlicon from '../assets/images/icons/icon-sql-96.png'
 
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Enterprise International', 
-    description: 'American travel site for International business clientele.',
-    link: "https://dps-enterprise-international.herokuapp.com/" },
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Caffey, Inc.', description: 'Design-Build Medical Construction website.'},
-    { id: '3', src: full03, thumbnail: thumb03, caption: 'Mugshot', description: 'Facebook clone for those who prefer jumpsuits.'},
+    { id: '1', src: full01, thumbnail: thumb01, caption: 'Enterprise International',
+    description: 'American travel site for International business clientele.' },
+    { id: '2', src: full02, thumbnail: thumb02, caption: 'Caffey, Inc.', 
+    description: 'Design-Build Medical Construction website.'},
+    { id: '3', src: full03, thumbnail: thumb03, caption: 'Mugshot', 
+    description: 'Facebook clone for those who prefer jumpsuits.'},
 ];
 
 class HomeIndex extends React.Component {
