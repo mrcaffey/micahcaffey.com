@@ -95,7 +95,7 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Welcome! </h2>
+                            <h1>Welcome! </h1>
                         </header>
                         <p>I am a freelance Full Stack web developer passionate about using programming to solve problems and deliver quality products.
                            When I'm not working on a project, I enjoy hiking, exercising, cooking and photography. </p>
@@ -163,10 +163,13 @@ class HomeIndex extends React.Component {
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
                                         <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                                     </div>
+                                    <br/>
                                     <ul className="actions">
                                     <li><input type="submit" value="Send Message"/></li>
                                 </ul>
                                 </form>
+                                <br/>
+                                <p>Developed by Micah Caffey using <a href="https://reactjs.org/">React</a> and <a href="https://www.gatsbyjs.org/">GatsbyJS</a></p>
                             </div>
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
