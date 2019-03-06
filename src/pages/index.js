@@ -169,7 +169,7 @@ class HomeIndex extends React.Component {
                                 </ul>
                                 </form>
                                 <br/>
-                                <p>Developed by Micah Caffey using <a href="https://reactjs.org/">React</a> and <a href="https://www.gatsbyjs.org/">GatsbyJS</a></p>
+                                <p>Developed by Micah Caffey using <a href="https://reactjs.org/">React</a> and <a href="https://www.gatsbyjs.org/">GatsbyJS</a>.</p>
                             </div>
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
