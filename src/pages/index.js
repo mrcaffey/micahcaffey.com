@@ -175,7 +175,7 @@ class HomeIndex extends React.Component {
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        207 S 600 E<br />
+                                        55 500 W<br />
                                         Salt Lake City, UT.<br />
                                         United States
                                     </li>
