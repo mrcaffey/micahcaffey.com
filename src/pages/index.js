@@ -97,7 +97,7 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h1>Welcome! </h1>
                         </header>
-                        <p>I am a freelance Full Stack web developer passionate about using programming to solve problems and deliver quality products.
+                        <p>I am a freelance Full Stack web developer passionate about using programming to solve problems and deliver quality products. I also have experience in Project Management and experience implementing new software, hardware and managing multiple client relations and teams.
                            When I'm not working on a project, I enjoy hiking, exercising, cooking and photography. </p>
                         <br/>
                         <br/>
