@@ -122,12 +122,15 @@ class HomeIndex extends React.Component {
                         <br/>
                         <br/>
 
-
+         
                         <ul className="actions">
                             <li><a href="https://github.com/mrcaffey" className="button">Check me out on Github</a></li>
                         </ul>
-                        
+                        <ul className="actions">
+                            <li><a href="assets/images/fulls/resume.pdf" className="button" download>Download my Resume</a></li>
+                        </ul>
                     </section>
+               
 
                     <section id="two">
                         <h2>Recent Work</h2>
