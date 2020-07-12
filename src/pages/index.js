@@ -26,12 +26,14 @@ import sqlicon from '../assets/images/icons/icon-sql-96.png'
 
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: paydrt, caption: 'Paydrt',
-    description: 'Business Management Web App for clients to add and track their social media and site engagement statistics utilizing various API services & Hubspot. Bought by local marketing advertising firm Monumetric. LINK: https://paydrt.com/' },
-    { id: '2', src: fabriq, caption: 'FabrIQ', 
+    { id: '1', src: paydrt, caption: 'Paydrt: Web',
+    description: 'Business Management Web App for clients to add and track their social media and site engagement statistics utilizing various API services & Hubspot. Used Python & Django backend. Bought by local marketing advertising firm Monumetric. LINK: https://paydrt.com/' },
+    { id: '2', src: fabriq, caption: 'FabrIQ: Desktop', 
     description: 'Desktop app for Windows, MacOS, & Linux built on Electron.js & React in which content creators, freelancers and remote workers are able to separate their work and passion projects into Workspaces. User has the ability to add thousands of Apps from App Store to their Workspace and to customize their URL as well as utilize split-screen web browsing & app switching.'},
-    { id: '3', src: knx, caption: 'KNX', 
+    { id: '3', src: knx, caption: 'KNX: Web', 
     description: 'Web application in which clients scan user-generated QR code and are directed to application which gathers information about requested services. This client data is sent to user data tables to keep track of customers per user. '},
+    { id: '4', caption: 'TNG: iOS/Android,
+    description: 'IN PROGRESS: I am working on a React Native based mobile Goal Tracking Application for a client running a Node backend and utilizing Amazon Firestore and AWS. Release for this application anticipated on iOS/Android soon. Would greatly appreciate a review at that time!'}
 ];
 
 class HomeIndex extends React.Component {
