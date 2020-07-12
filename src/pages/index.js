@@ -36,6 +36,7 @@ const DEFAULT_IMAGES = [
     description: 'IN PROGRESS: I am working on a React Native based mobile Goal Tracking Application for a client running a Node backend and utilizing Amazon Firestore and AWS. Release for this application anticipated on iOS/Android soon. Would greatly appreciate a review at that time!'}
 ];
 
+
 class HomeIndex extends React.Component {
 
     constructor() {
