@@ -100,13 +100,21 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h1>Welcome! </h1>
                         </header>
-                        <p>I am a Developer passionate about using programming to solve problems and deliver quality products. I also have experience in Project Management including implementing new software, hardware and managing multiple client relations and teams.
-                           When I'm not working on a project, I enjoy hiking, exercising, cooking and photography. </p>
-                        <br/>
-                        <br/>
-                        <p>The majority of my work is with Javascript, both client and server side, and I do enjoy it. However, I do have exposure to Python & Ruby as well. I
-                            have worked with tools such as Amazon Firebase, Google Cloud Console, Payment Processing API's (Stripe, Paypal) as well as set up of user
-                            authentication methods such as Facebook, Google, Microsoft & Apple. 
+                        <p>I am a Developer passionate about using programming to solve problems and deliver quality products. 
+                            My experience in Web Development spans over a year and a half with a startup company in which I helped 
+                            launch two profitable applications -- one web based and another a desktop application. My experience included
+                            weekly deployments, code reviews, and timely PR's inline with a team running 'sprints' in an organization adhering
+                            to the fundamentals of Agile methodology. 
+                           </p>
+                           <p>
+                               Currently I am working on multiple contract projects as a Freelance Developer.
+                           </p>
+                        <p>The majority of my work is with Javascript, both client and server side, and I do enjoy it. However, I have exposure to OOP Languages such as Python & Ruby, too. I
+                            have worked with authentication tools such as Amazon Firebase & social media authentication API's (Facebook, Google, Apple, Microsoft). I also have worked extensively with payment
+                            processing API's like Paypal and Stripe. I am adept at SQL and excel primarily with Postgres and Google Cloud Console, though I have worked with MySQL and AWS as well.
+                        </p>
+                        <p>I enjoy building for small businesses and startups. Primarily, my draw to programming is the challenge of ever-changing technologies and the opportunity to wake up every day and learn, adapt, and deliver things I'm proud of.
+                            Let's get to know each other!
                         </p>
                         <br/>
                         <br/>
