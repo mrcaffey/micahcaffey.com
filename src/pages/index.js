@@ -27,7 +27,7 @@ import sqlicon from '../assets/images/icons/icon-sql-96.png'
 
 const DEFAULT_IMAGES = [
     { id: '1', src: paydrt, caption: 'Paydrt: Web',
-    description: 'Business Management Web App for clients to add and track their social media and site engagement statistics utilizing various API services & Hubspot. Used Python & Django backend. Bought by local marketing advertising firm Monumetric. LINK: https://paydrt.com/' },
+    description: 'Business Management Web App for clients to track their social media and site engagement statistics utilizing various API services & Hubspot. Used Python & Django backend. Bought by local marketing advertising firm Monumetric. LINK: https://paydrt.com/' },
     { id: '2', src: fabriq, caption: 'FabrIQ: Desktop', 
     description: 'Desktop app for Windows, MacOS, & Linux built on Electron.js & React in which content creators, freelancers and remote workers are able to separate their work and passion projects into Workspaces. User has the ability to add thousands of Apps from App Store to their Workspace and to customize their URL as well as utilize split-screen web browsing & app switching. LINK: https://tryfabriq.com/'},
     { id: '3', src: knx, caption: 'KNX: Web', 
